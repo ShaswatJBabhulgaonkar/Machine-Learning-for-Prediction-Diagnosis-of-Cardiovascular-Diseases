@@ -1,1 +1,1 @@
-# Machine-Learning-for-Prediction-Diagnosis-of-Cardiovascular-Diseases
+# Machine-Learning-for-Prediction-and-Diagnosis-of-Cardiovascular-Diseases
