@@ -1,21 +1,5 @@
 # Machine-Learning-for-Prediction-and-Diagnosis-of-Cardiovascular-Diseases
 Abstract
-The project implements 4 linear models and one deep learning model using scikit-learn: Logistic Regression, Naïve Bayes, Support Vector Machine, K-Nearest Neighbours and Multi-Layer Perceptron Neural network to investigate their performance on diabetes and heart disease datasets obtained from the UCI data repository.
+Diagnosis and Prediction of cardiovascular diseases has often become a challenge faced by doctors and hospitals in India as well as abroad. Despite major transformations in lifestyles of people and advancements in medical domain; heart attacks still hold a major share in the global death rate. The ambiguity in diagnosis of most heart diseases lies in the intricate grouping of clinical and pathological data which may introduce misinterpretation of data among clinical experts, doctors and researchers. Ultimately,the problem lies within making decisions concerned with predicting and later diagnosing the heartdiseases. These decisions can have adrastic effect on life of a person. The proposed approach to use machine learning for prediction as well as diagnostic purposes can play a very important role in this area. Various Machine Learning techniques can be used for classifying healthy people from the ones suffering from heart diseases. This work intends to presents a comprehensive review of prediction of Cardiac diseases by using Machine Learning algorithms like Support Vector Machines, Logistic Regression, K-nearest neighbour, Naive Bayes and Multi-Layer Perceptron Neural Network. The work also proposes a classiﬁer (Ensemble Classiﬁer) which takes into consideration the decision of all individual classiﬁers for better prediction results.
 
-Multi-Layer Perceptron Neural Network outperforms other linear models however K-Nearest Neighbours gives identical results with less computing overhead. Performance improvements could also be achieved by using complex deep learning methods.
 
-Experiment Results
-Cleveland Heart Disease Dataset
-Classifier	Hyper-parameters	Accuray (10-fold CV)
-Logistic Regression	C = 0.13, Penalty = l1	83.84%
-Linear SVC	C = 18.08	84.85%
-Naïve Bayes		84.51%
-K-Nearest Neighbors	n_neighbors=13, weights='uniform'	85.52%
-Multi-layer perceptron	learning_rate_init= 0.026958815931057856, hidden_layer_sizes = (29,26,5), learning_rate = constant, activation=identity, alpha = 16.681	86.2%
-PIMA Indian Diabetes
-Classifier	Hyper-parameters	Accuray (10-fold CV)
-Logistic Regression	C = 0.25999, Penalty = l2	77.6%
-Linear SVC	C = 36.74999	78.77%
-Naïve Bayes		75.651%
-K-Nearest Neighbors	n_neighbors=27, weights='uniform'	78.125%
-Multi-layer perceptron	learning_rate_init= 0. 0.043967984410493759, hidden_layer_sizes = (23, 44), learning_rate = constant, activation=logistic, alpha = 0.1	79.03%
